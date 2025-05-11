@@ -447,7 +447,7 @@ run(function()
 			self.said[plr.Name] = true
 			notif('Baya', plr.Name..' is using baya!', 60)
 			self.customtags[plr.Name] = {{
-				text = 'VAPE USER',
+				text = 'BAYA USER',
 				color = Color3.new(1, 1, 0)
 			}}
 			local newent = entitylib.getEntity(plr)
@@ -617,7 +617,7 @@ run(function()
 
 					if table.find(targets, tostring(lplr.UserId)) then
 						local hint = Instance.new('Hint')
-						hint.Text = 'VAPE ANNOUNCEMENT: '..whitelist.data.Announcement.text
+						hint.Text = 'BAYA ANNOUNCEMENT: '..whitelist.data.Announcement.text
 						hint.Parent = workspace
 						game:GetService('Debris'):AddItem(hint, 20)
 					end
