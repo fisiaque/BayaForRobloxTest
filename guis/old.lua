@@ -76,7 +76,7 @@ local getcustomassets = {
 	['BayaUI/assets/old/textbaya.png'] = 'rbxasset://textbaya.png',
 	['BayaUI/assets/old/textv4.png'] = 'rbxasset://textv4.png',
 	['BayaUI/assets/old/utilityicon.png'] = 'rbxasset://utilityicon.png',
-	['BayaUI/assets/old/baya.png'] = 'rbxassetid://71142378499430',
+	['BayaUI/assets/old/baya.png'] = 'rbxassetid://71142378499430', --gets image from new
 	['BayaUI/assets/old/worldicon.png'] = 'rbxasset://worldicon.png'
 }
 

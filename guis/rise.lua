@@ -122,7 +122,7 @@ local themecolors = {
 local getcustomassets = {
 	['BayaUI/assets/rise/slice.png'] = 'rbxasset://risesix/slice.png',
 	['BayaUI/assets/rise/blur.png'] = 'rbxasset://risesix/blur.png',
-	['BayaUI/assets/new/blur.png'] = 'rbxassetid://14898786664',
+	['BayaUI/assets/new/blur.png'] = 'rbxassetid://105962590774499',
 }
 
 local isfile = isfile or function(file)
