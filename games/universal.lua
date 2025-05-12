@@ -383,7 +383,6 @@ run(function()
 		local plrstr = self.hashes[plr.Name..plr.UserId]
 		for _, v in self.data.WhitelistedUsers do
 			if v.hash == plrstr then
-				print(plr.Name.. " Whitelisted")
 				return v.level, v.attackable or whitelist.localprio >= v.level, v.tags
 			end
 		end

@@ -31,11 +31,3 @@ If its not the supposed utility at fault, please try some troubleshooting steps.
 1. Deleting the BayaUI folder (WITH THE GAME CLOSED).
 2. Making sure you have connection to [the main loadstring.](https://raw.githubusercontent.com/fisiaque/BayaForRobloxTest/refs/heads/main/loader.lua)
 3. Ensuring no external script is conflicting with baya.
-
-## Get Time for Announcements
-```luau
-print(os.time({
-	year=2025, month=5, day=12, -- Date components
-	hour=13, min=35, sec=0 -- Time components
-})) --> 1586
-```
