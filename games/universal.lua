@@ -565,12 +565,11 @@ run(function()
 	function whitelist:update(first)
 		local suc = pcall(function()
 			local _, subbed = pcall(function()
-				return game:HttpGet('https://github.com/fisiaque/whitelists')
+				return game:HttpGet('https://gist.github.com/fisiaque/3c8a6039783f69596ed569ead93a7dd7')
 			end)
-			local commit = subbed:find('currentOid')
-			commit = commit and subbed:sub(commit + 13, commit + 52) or nil
-			commit = commit and #commit == 40 and commit or 'main'
-			whitelist.textdata = game:HttpGet('https://raw.githubusercontent.com/fisiaque/whitelists/'..commit..'/PlayerWhitelist.json', true)
+
+			local commit = subbed:match('/raw/([a-f0-9]+)/')
+			whitelist.textdata = game:HttpGet('https://gist.githubusercontent.com/fisiaque/3c8a6039783f69596ed569ead93a7dd7/raw/'..commit..'/PlayerWhitelists.json', true)
 		end)
 		if not suc or not hash or not whitelist.get then return true end
 		whitelist.loaded = true

@@ -41,8 +41,8 @@ for _, folder in {'BayaUI', 'BayaUI/games', 'BayaUI/profiles', 'BayaUI/assets', 
 end
 
 if not shared.BayaDeveloper then
-	local _, subbed = pcall(function() 
-		return game:HttpGet('https://github.com/fisiaque/BayaForRobloxTest') 
+	local _, subbed = pcall(function()
+		return game:HttpGet('https://github.com/fisiaque/BayaForRobloxTest')
 	end)
 	local commit = subbed:find('currentOid')
 	commit = commit and subbed:sub(commit + 13, commit + 52) or nil
