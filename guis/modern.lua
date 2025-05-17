@@ -59,68 +59,68 @@ local uipallet = {
 }
 
 local getcustomassets = {
-	['BayaUI/assets/new/add.png'] = 'rbxassetid://121207153658340',
-	['BayaUI/assets/new/alert.png'] = 'rbxassetid://102812705220441',
-	['BayaUI/assets/new/allowedicon.png'] = 'rbxassetid://112671946540032',
-	['BayaUI/assets/new/allowedtab.png'] = 'rbxassetid://72000099689996',
-	['BayaUI/assets/new/arrowmodule.png'] = 'rbxassetid://132835022341961',
-	['BayaUI/assets/new/back.png'] = 'rbxassetid://86184145689279',
-	['BayaUI/assets/new/bind.png'] = 'rbxassetid://118186981892560',
-	['BayaUI/assets/new/bindbkg.png'] = 'rbxassetid://108699408801661',
-	['BayaUI/assets/new/blatanticon.png'] = 'rbxassetid://125549867490009',
-	['BayaUI/assets/new/blockedicon.png'] = 'rbxassetid://126928403162311',
-	['BayaUI/assets/new/blockedtab.png'] = 'rbxassetid://139958892021654',
-	['BayaUI/assets/new/blur.png'] = 'rbxassetid://105962590774499',
-	['BayaUI/assets/new/blurnotif.png'] = 'rbxassetid://83869671172008',
-	['BayaUI/assets/new/close.png'] = 'rbxassetid://98079098787658',
-	['BayaUI/assets/new/closemini.png'] = 'rbxassetid://104536816633711',
-	['BayaUI/assets/new/colorpreview.png'] = 'rbxassetid://124244013636706',
-	['BayaUI/assets/new/combaticon.png'] = 'rbxassetid://91630165725362',
-	['BayaUI/assets/new/customsettings.png'] = 'rbxassetid://96424109502421',
-	['BayaUI/assets/new/dots.png'] = 'rbxassetid://106709576865385',
-	['BayaUI/assets/new/edit.png'] = 'rbxassetid://110944477857675',
-	['BayaUI/assets/new/expandright.png'] = 'rbxassetid://93216503898531',
-	['BayaUI/assets/new/expandup.png'] = 'rbxassetid://110148963103901',
-	['BayaUI/assets/new/friendstab.png'] = 'rbxassetid://139390785164745',
-	['BayaUI/assets/new/guisettings.png'] = 'rbxassetid://119600399467441',
-	['BayaUI/assets/new/guislider.png'] = 'rbxassetid://104424913806120',
-	['BayaUI/assets/new/guisliderrain.png'] = 'rbxassetid://122634036703025',
-	['BayaUI/assets/new/guiv4.png'] = 'rbxassetid://96278151716969',
-	['BayaUI/assets/new/guibaya.png'] = 'rbxassetid://89243102639787',
-	['BayaUI/assets/new/info.png'] = 'rbxassetid://105237774908134',
-	['BayaUI/assets/new/inventoryicon.png'] = 'rbxassetid://139567035917094',
-	['BayaUI/assets/new/legit.png'] = 'rbxassetid://120141202539126',
-	['BayaUI/assets/new/legittab.png'] = 'rbxassetid://108250253970649',
-	['BayaUI/assets/new/miniicon.png'] = 'rbxassetid://120252646282359',
-	['BayaUI/assets/new/notification.png'] = 'rbxassetid://115871497200510',
-	['BayaUI/assets/new/overlaysicon.png'] = 'rbxassetid://78183764337470',
-	['BayaUI/assets/new/overlaystab.png'] = 'rbxassetid://100259382070782',
-	['BayaUI/assets/new/pin.png'] = 'rbxassetid://89677707907403',
-	['BayaUI/assets/new/profilesicon.png'] = 'rbxassetid://72152534193853',
-	['BayaUI/assets/new/radaricon.png'] = 'rbxassetid://138280017940442',
-	['BayaUI/assets/new/rainbow_1.png'] = 'rbxassetid://89650968551378',
-	['BayaUI/assets/new/rainbow_2.png'] = 'rbxassetid://100342902826367',
-	['BayaUI/assets/new/rainbow_3.png'] = 'rbxassetid://118878672998032',
-	['BayaUI/assets/new/rainbow_4.png'] = 'rbxassetid://135286209797924',
-	['BayaUI/assets/new/range.png'] = 'rbxassetid://102213201735153',
-	['BayaUI/assets/new/rangearrow.png'] = 'rbxassetid://99358960389972',
-	['BayaUI/assets/new/rendericon.png'] = 'rbxassetid://123505708354451',
-	['BayaUI/assets/new/rendertab.png'] = 'rbxassetid://89670530892967',
-	['BayaUI/assets/new/search.png'] = 'rbxassetid://74697662341086',
-	['BayaUI/assets/new/expandicon.png'] = 'rbxassetid://86677993773675',
-	['BayaUI/assets/new/targetinfoicon.png'] = 'rbxassetid://77997550419795',
-	['BayaUI/assets/new/targetnpc1.png'] = 'rbxassetid://120196275109297',
-	['BayaUI/assets/new/targetnpc2.png'] = 'rbxassetid://71987892019380',
-	['BayaUI/assets/new/targetplayers1.png'] = 'rbxassetid://128003379264185',
-	['BayaUI/assets/new/targetplayers2.png'] = 'rbxassetid://123072416930061',
-	['BayaUI/assets/new/targetstab.png'] = 'rbxassetid://140358380459563',
-	['BayaUI/assets/new/textguiicon.png'] = 'rbxassetid://103054332703940',
-	['BayaUI/assets/new/textv4.png'] = 'rbxassetid://111766450475091',
-	['BayaUI/assets/new/textbaya.png'] = 'rbxassetid://111101088404114',
-	['BayaUI/assets/new/utilityicon.png'] = 'rbxassetid://129590491071495',
-	['BayaUI/assets/new/baya.png'] = 'rbxassetid://71142378499430',
-	['BayaUI/assets/new/warning.png'] = 'rbxassetid://125144969372589',
-	['BayaUI/assets/new/worldicon.png'] = 'rbxassetid://115138444349011'
+	['BayaUI/assets/modern/add.png'] = 'rbxassetid://121207153658340',
+	['BayaUI/assets/modern/alert.png'] = 'rbxassetid://102812705220441',
+	['BayaUI/assets/modern/allowedicon.png'] = 'rbxassetid://112671946540032',
+	['BayaUI/assets/modern/allowedtab.png'] = 'rbxassetid://72000099689996',
+	['BayaUI/assets/modern/arrowmodule.png'] = 'rbxassetid://132835022341961',
+	['BayaUI/assets/modern/back.png'] = 'rbxassetid://86184145689279',
+	['BayaUI/assets/modern/bind.png'] = 'rbxassetid://118186981892560',
+	['BayaUI/assets/modern/bindbkg.png'] = 'rbxassetid://108699408801661',
+	['BayaUI/assets/modern/funicon.png'] = 'rbxassetid://111092290411693',
+	['BayaUI/assets/modern/blockedicon.png'] = 'rbxassetid://126928403162311',
+	['BayaUI/assets/modern/blockedtab.png'] = 'rbxassetid://139958892021654',
+	['BayaUI/assets/modern/blur.png'] = 'rbxassetid://105962590774499',
+	['BayaUI/assets/modern/blurnotif.png'] = 'rbxassetid://83869671172008',
+	['BayaUI/assets/modern/close.png'] = 'rbxassetid://98079098787658',
+	['BayaUI/assets/modern/closemini.png'] = 'rbxassetid://104536816633711',
+	['BayaUI/assets/modern/colorpreview.png'] = 'rbxassetid://124244013636706',
+	['BayaUI/assets/modern/combaticon.png'] = 'rbxassetid://128054353024947',
+	['BayaUI/assets/modern/customsettings.png'] = 'rbxassetid://96424109502421',
+	['BayaUI/assets/modern/dots.png'] = 'rbxassetid://106709576865385',
+	['BayaUI/assets/modern/edit.png'] = 'rbxassetid://110944477857675',
+	['BayaUI/assets/modern/expandright.png'] = 'rbxassetid://93216503898531',
+	['BayaUI/assets/modern/expandup.png'] = 'rbxassetid://110148963103901',
+	['BayaUI/assets/modern/friendstab.png'] = 'rbxassetid://139390785164745',
+	['BayaUI/assets/modern/guisettings.png'] = 'rbxassetid://119600399467441',
+	['BayaUI/assets/modern/guislider.png'] = 'rbxassetid://104424913806120',
+	['BayaUI/assets/modern/guisliderrain.png'] = 'rbxassetid://122634036703025',
+	['BayaUI/assets/modern/guiv4.png'] = 'rbxassetid://96278151716969',
+	['BayaUI/assets/modern/guibaya.png'] = 'rbxassetid://89243102639787',
+	['BayaUI/assets/modern/info.png'] = 'rbxassetid://105237774908134',
+	['BayaUI/assets/modern/inventoryicon.png'] = 'rbxassetid://139567035917094',
+	['BayaUI/assets/modern/legit.png'] = 'rbxassetid://120141202539126',
+	['BayaUI/assets/modern/legittab.png'] = 'rbxassetid://108250253970649',
+	['BayaUI/assets/modern/autoicon.png'] = 'rbxassetid://78005899051532',
+	['BayaUI/assets/modern/notification.png'] = 'rbxassetid://115871497200510',
+	['BayaUI/assets/modern/overlaysicon.png'] = 'rbxassetid://78183764337470',
+	['BayaUI/assets/modern/overlaystab.png'] = 'rbxassetid://100259382070782',
+	['BayaUI/assets/modern/pin.png'] = 'rbxassetid://89677707907403',
+	['BayaUI/assets/modern/profilesicon.png'] = 'rbxassetid://72152534193853',
+	['BayaUI/assets/modern/radaricon.png'] = 'rbxassetid://138280017940442',
+	['BayaUI/assets/modern/rainbow_1.png'] = 'rbxassetid://89650968551378',
+	['BayaUI/assets/modern/rainbow_2.png'] = 'rbxassetid://100342902826367',
+	['BayaUI/assets/modern/rainbow_3.png'] = 'rbxassetid://118878672998032',
+	['BayaUI/assets/modern/rainbow_4.png'] = 'rbxassetid://135286209797924',
+	['BayaUI/assets/modern/range.png'] = 'rbxassetid://102213201735153',
+	['BayaUI/assets/modern/rangearrow.png'] = 'rbxassetid://99358960389972',
+	['BayaUI/assets/modern/visualicon.png'] = 'rbxassetid://123505708354451',
+	['BayaUI/assets/modern/rendertab.png'] = 'rbxassetid://89670530892967',
+	['BayaUI/assets/modern/search.png'] = 'rbxassetid://74697662341086',
+	['BayaUI/assets/modern/expandicon.png'] = 'rbxassetid://86677993773675',
+	['BayaUI/assets/modern/targetinfoicon.png'] = 'rbxassetid://77997550419795',
+	['BayaUI/assets/modern/targetnpc1.png'] = 'rbxassetid://120196275109297',
+	['BayaUI/assets/modern/targetnpc2.png'] = 'rbxassetid://71987892019380',
+	['BayaUI/assets/modern/targetplayers1.png'] = 'rbxassetid://128003379264185',
+	['BayaUI/assets/modern/targetplayers2.png'] = 'rbxassetid://123072416930061',
+	['BayaUI/assets/modern/targetstab.png'] = 'rbxassetid://140358380459563',
+	['BayaUI/assets/modern/textguiicon.png'] = 'rbxassetid://103054332703940',
+	['BayaUI/assets/modern/textv4.png'] = 'rbxassetid://111766450475091',
+	['BayaUI/assets/modern/textbaya.png'] = 'rbxassetid://111101088404114',
+	['BayaUI/assets/modern/utilityicon.png'] = 'rbxassetid://129590491071495',
+	['BayaUI/assets/modern/baya.png'] = 'rbxassetid://71142378499430',
+	['BayaUI/assets/modern/warning.png'] = 'rbxassetid://125144969372589',
+	['BayaUI/assets/modern/worldicon.png'] = 'rbxassetid://115138444349011'
 }
 
 local isfile = isfile or function(file)
@@ -145,7 +145,7 @@ local function addBlur(parent, notif)
 	blur.Size = UDim2.new(1, 89, 1, 52)
 	blur.Position = UDim2.fromOffset(-48, -31)
 	blur.BackgroundTransparency = 1
-	blur.Image = getcustomasset('BayaUI/assets/new/'..(notif and 'blurnotif' or 'blur')..'.png')
+	blur.Image = getcustomasset('BayaUI/assets/modern/'..(notif and 'blurnotif' or 'blur')..'.png')
 	blur.ScaleType = Enum.ScaleType.Slice
 	blur.SliceCenter = Rect.new(52, 31, 261, 502)
 	blur.Parent = parent
@@ -169,7 +169,7 @@ local function addCloseButton(parent, offset)
 	close.BackgroundColor3 = Color3.new(1, 1, 1)
 	close.BackgroundTransparency = 1
 	close.AutoButtonColor = false
-	close.Image = getcustomasset('BayaUI/assets/new/close.png')
+	close.Image = getcustomasset('BayaUI/assets/modern/close.png')
 	close.ImageColor3 = color.Light(uipallet.Text, 0.2)
 	close.ImageTransparency = 0.5
 	close.Parent = parent
@@ -693,7 +693,7 @@ components = {
 		preview.Size = UDim2.fromOffset(12, 12)
 		preview.Position = UDim2.new(1, -22, 0, 10)
 		preview.BackgroundTransparency = 1
-		preview.Image = getcustomasset('BayaUI/assets/new/colorpreview.png')
+		preview.Image = getcustomasset('BayaUI/assets/modern/colorpreview.png')
 		preview.ImageColor3 = Color3.fromHSV(optionapi.Hue, optionapi.Sat, optionapi.Value)
 		preview.ImageTransparency = 1 - optionapi.Opacity
 		preview.Parent = slider
@@ -709,7 +709,7 @@ components = {
 		expand.Size = UDim2.fromOffset(9, 5)
 		expand.Position = UDim2.fromOffset(4, 4)
 		expand.BackgroundTransparency = 1
-		expand.Image = getcustomasset('BayaUI/assets/new/expandicon.png')
+		expand.Image = getcustomasset('BayaUI/assets/modern/expandicon.png')
 		expand.ImageColor3 = color.Dark(uipallet.Text, 0.43)
 		expand.Parent = expandbutton
 		local rainbow = Instance.new('TextButton')
@@ -722,17 +722,17 @@ components = {
 		local rainbow1 = Instance.new('ImageLabel')
 		rainbow1.Size = UDim2.fromOffset(12, 12)
 		rainbow1.BackgroundTransparency = 1
-		rainbow1.Image = getcustomasset('BayaUI/assets/new/rainbow_1.png')
+		rainbow1.Image = getcustomasset('BayaUI/assets/modern/rainbow_1.png')
 		rainbow1.ImageColor3 = color.Light(uipallet.Main, 0.37)
 		rainbow1.Parent = rainbow
 		local rainbow2 = rainbow1:Clone()
-		rainbow2.Image = getcustomasset('BayaUI/assets/new/rainbow_2.png')
+		rainbow2.Image = getcustomasset('BayaUI/assets/modern/rainbow_2.png')
 		rainbow2.Parent = rainbow
 		local rainbow3 = rainbow1:Clone()
-		rainbow3.Image = getcustomasset('BayaUI/assets/new/rainbow_3.png')
+		rainbow3.Image = getcustomasset('BayaUI/assets/modern/rainbow_3.png')
 		rainbow3.Parent = rainbow
 		local rainbow4 = rainbow1:Clone()
-		rainbow4.Image = getcustomasset('BayaUI/assets/new/rainbow_4.png')
+		rainbow4.Image = getcustomasset('BayaUI/assets/modern/rainbow_4.png')
 		rainbow4.Parent = rainbow
 		local knobholder = Instance.new('Frame')
 		knobholder.Name = 'Knob'
@@ -997,7 +997,7 @@ components = {
 		arrow.Size = UDim2.fromOffset(4, 8)
 		arrow.Position = UDim2.new(1, -17, 0, 11)
 		arrow.BackgroundTransparency = 1
-		arrow.Image = getcustomasset('BayaUI/assets/new/expandright.png')
+		arrow.Image = getcustomasset('BayaUI/assets/modern/expandright.png')
 		arrow.ImageColor3 = Color3.fromRGB(140, 140, 140)
 		arrow.Rotation = 90
 		arrow.Parent = button
@@ -1408,7 +1408,7 @@ components = {
 		icon.Size = UDim2.fromOffset(18, 12)
 		icon.Position = UDim2.fromOffset(10, 15)
 		icon.BackgroundTransparency = 1
-		icon.Image = getcustomasset('BayaUI/assets/new/targetstab.png')
+		icon.Image = getcustomasset('BayaUI/assets/modern/targetstab.png')
 		icon.Parent = window
 		local title = Instance.new('TextLabel')
 		title.Name = 'Title'
@@ -1470,20 +1470,20 @@ components = {
 		
 		optionapi.Players = components.TargetsButton({
 			Position = UDim2.fromOffset(11, 45),
-			Icon = getcustomasset('BayaUI/assets/new/targetplayers1.png'),
+			Icon = getcustomasset('BayaUI/assets/modern/targetplayers1.png'),
 			IconSize = UDim2.fromOffset(15, 16),
 			IconParent = tool,
-			ToolIcon = getcustomasset('BayaUI/assets/new/targetplayers2.png'),
+			ToolIcon = getcustomasset('BayaUI/assets/modern/targetplayers2.png'),
 			ToolSize = UDim2.fromOffset(11, 12),
 			Tooltip = 'Players',
 			Function = optionsettings.Function
 		}, window, tool)
 		optionapi.NPCs = components.TargetsButton({
 			Position = UDim2.fromOffset(112, 45),
-			Icon = getcustomasset('BayaUI/assets/new/targetnpc1.png'),
+			Icon = getcustomasset('BayaUI/assets/modern/targetnpc1.png'),
 			IconSize = UDim2.fromOffset(12, 16),
 			IconParent = tool,
-			ToolIcon = getcustomasset('BayaUI/assets/new/targetnpc2.png'),
+			ToolIcon = getcustomasset('BayaUI/assets/modern/targetnpc2.png'),
 			ToolSize = UDim2.fromOffset(9, 12),
 			Tooltip = 'NPCs',
 			Function = optionsettings.Function
@@ -1767,7 +1767,7 @@ components = {
 		buttonicon.Size = UDim2.fromOffset(14, 12)
 		buttonicon.Position = UDim2.fromOffset(10, 14)
 		buttonicon.BackgroundTransparency = 1
-		buttonicon.Image = optionsettings.Icon or getcustomasset('BayaUI/assets/new/allowedicon.png')
+		buttonicon.Image = optionsettings.Icon or getcustomasset('BayaUI/assets/modern/allowedicon.png')
 		buttonicon.Parent = button
 		local buttontitle = Instance.new('TextLabel')
 		buttontitle.Name = 'Title'
@@ -1813,7 +1813,7 @@ components = {
 		icon.Size = optionsettings.TabSize or UDim2.fromOffset(19, 16)
 		icon.Position = UDim2.fromOffset(10, 13)
 		icon.BackgroundTransparency = 1
-		icon.Image = optionsettings.Tab or getcustomasset('BayaUI/assets/new/allowedtab.png')
+		icon.Image = optionsettings.Tab or getcustomasset('BayaUI/assets/modern/allowedtab.png')
 		icon.Parent = window
 		local title = Instance.new('TextLabel')
 		title.Name = 'Title'
@@ -1856,7 +1856,7 @@ components = {
 		addbutton.Size = UDim2.fromOffset(16, 16)
 		addbutton.Position = UDim2.new(1, -26, 0, 8)
 		addbutton.BackgroundTransparency = 1
-		addbutton.Image = getcustomasset('BayaUI/assets/new/add.png')
+		addbutton.Image = getcustomasset('BayaUI/assets/modern/add.png')
 		addbutton.ImageColor3 = optionsettings.Color
 		addbutton.ImageTransparency = 0.3
 		addbutton.Parent = addbkg
@@ -1960,7 +1960,7 @@ components = {
 				close.BackgroundColor3 = Color3.new(1, 1, 1)
 				close.BackgroundTransparency = 1
 				close.AutoButtonColor = false
-				close.Image = getcustomasset('BayaUI/assets/new/closemini.png')
+				close.Image = getcustomasset('BayaUI/assets/modern/closemini.png')
 				close.ImageColor3 = color.Light(uipallet.Text, 0.2)
 				close.ImageTransparency = 0.5
 				close.Parent = object
@@ -2260,7 +2260,7 @@ components = {
 		knob.Position = UDim2.fromScale(0.5, 0.5)
 		knob.AnchorPoint = Vector2.new(0.5, 0.5)
 		knob.BackgroundTransparency = 1
-		knob.Image = getcustomasset('BayaUI/assets/new/range.png')
+		knob.Image = getcustomasset('BayaUI/assets/modern/range.png')
 		knob.ImageColor3 = Color3.fromHSV(mainapi.GUIColor.Hue, mainapi.GUIColor.Sat, mainapi.GUIColor.Value)
 		knob.Parent = knobholder
 		local knobholdermax = knobholder:Clone()
@@ -2273,7 +2273,7 @@ components = {
 		arrow.Size = UDim2.fromOffset(12, 6)
 		arrow.Position = UDim2.new(1, -56, 0, 10)
 		arrow.BackgroundTransparency = 1
-		arrow.Image = getcustomasset('BayaUI/assets/new/rangearrow.png')
+		arrow.Image = getcustomasset('BayaUI/assets/modern/rangearrow.png')
 		arrow.ImageColor3 = color.Light(uipallet.Main, 0.14)
 		arrow.Parent = slider
 		optionsettings.Function = optionsettings.Function or function() end
@@ -2485,7 +2485,7 @@ function mainapi:CreateGUI()
 	logo.Size = UDim2.fromOffset(62, 18)
 	logo.Position = UDim2.fromOffset(11, 10)
 	logo.BackgroundTransparency = 1
-	logo.Image = getcustomasset('BayaUI/assets/new/guibaya.png')
+	logo.Image = getcustomasset('BayaUI/assets/modern/guibaya.png')
 	logo.ImageColor3 = select(3, uipallet.Main:ToHSV()) > 0.5 and uipallet.Text or Color3.new(1, 1, 1)
 	logo.Parent = window
 	local logov4 = Instance.new('ImageLabel')
@@ -2493,7 +2493,7 @@ function mainapi:CreateGUI()
 	logov4.Size = UDim2.fromOffset(28, 16)
 	logov4.Position = UDim2.new(1, 1, 0, 1)
 	logov4.BackgroundTransparency = 1
-	logov4.Image = getcustomasset('BayaUI/assets/new/guiv4.png')
+	logov4.Image = getcustomasset('BayaUI/assets/modern/guiv4.png')
 	logov4.Parent = logo
 	local children = Instance.new('Frame')
 	children.Name = 'Children'
@@ -2517,7 +2517,7 @@ function mainapi:CreateGUI()
 	settingsicon.Size = UDim2.fromOffset(14, 14)
 	settingsicon.Position = UDim2.fromOffset(15, 12)
 	settingsicon.BackgroundTransparency = 1
-	settingsicon.Image = getcustomasset('BayaUI/assets/new/guisettings.png')
+	settingsicon.Image = getcustomasset('BayaUI/assets/modern/guisettings.png')
 	settingsicon.ImageColor3 = color.Light(uipallet.Main, 0.37)
 	settingsicon.Parent = settingsbutton
 	local settingspane = Instance.new('TextButton')
@@ -2544,7 +2544,7 @@ function mainapi:CreateGUI()
 	back.Size = UDim2.fromOffset(16, 16)
 	back.Position = UDim2.fromOffset(11, 13)
 	back.BackgroundTransparency = 1
-	back.Image = getcustomasset('BayaUI/assets/new/back.png')
+	back.Image = getcustomasset('BayaUI/assets/modern/back.png')
 	back.ImageColor3 = color.Light(uipallet.Main, 0.37)
 	back.Parent = settingspane
 	local settingsversion = Instance.new('TextLabel')
@@ -2607,7 +2607,7 @@ function mainapi:CreateGUI()
 		icon.Size = UDim2.fromOffset(12, 12)
 		icon.Position = UDim2.new(0.5, -6, 0, 5)
 		icon.BackgroundTransparency = 1
-		icon.Image = getcustomasset('BayaUI/assets/new/bind.png')
+		icon.Image = getcustomasset('BayaUI/assets/modern/bind.png')
 		icon.ImageColor3 = color.Dark(uipallet.Text, 0.43)
 		icon.Parent = bind
 		local label = Instance.new('TextLabel')
@@ -2640,13 +2640,13 @@ function mainapi:CreateGUI()
 		bind.MouseEnter:Connect(function()
 			label.Visible = false
 			icon.Visible = not label.Visible
-			icon.Image = getcustomasset('BayaUI/assets/new/edit.png')
+			icon.Image = getcustomasset('BayaUI/assets/modern/edit.png')
 			icon.ImageColor3 = color.Dark(uipallet.Text, 0.16)
 		end)
 		bind.MouseLeave:Connect(function()
 			label.Visible = true
 			icon.Visible = not label.Visible
-			icon.Image = getcustomasset('BayaUI/assets/new/bind.png')
+			icon.Image = getcustomasset('BayaUI/assets/modern/bind.png')
 			icon.ImageColor3 = color.Dark(uipallet.Text, 0.43)
 		end)
 		bind.MouseButton1Click:Connect(function()
@@ -2707,7 +2707,7 @@ function mainapi:CreateGUI()
 		arrow.Size = UDim2.fromOffset(4, 8)
 		arrow.Position = UDim2.new(1, -20, 0, 16)
 		arrow.BackgroundTransparency = 1
-		arrow.Image = getcustomasset('BayaUI/assets/new/expandright.png')
+		arrow.Image = getcustomasset('BayaUI/assets/modern/expandright.png')
 		arrow.ImageColor3 = color.Light(uipallet.Main, 0.37)
 		arrow.Parent = button
 		optionapi.Name = categorysettings.Name
@@ -2769,7 +2769,7 @@ function mainapi:CreateGUI()
 		button.Position = UDim2.new(1, -29, 0, 7)
 		button.BackgroundTransparency = 1
 		button.AutoButtonColor = false
-		button.Image = getcustomasset('BayaUI/assets/new/overlaysicon.png')
+		button.Image = getcustomasset('BayaUI/assets/modern/overlaysicon.png')
 		button.ImageColor3 = color.Light(uipallet.Main, 0.37)
 		button.Parent = bar
 		addCorner(button, UDim.new(1, 0))
@@ -2796,7 +2796,7 @@ function mainapi:CreateGUI()
 		icon.Size = UDim2.fromOffset(14, 12)
 		icon.Position = UDim2.fromOffset(10, 13)
 		icon.BackgroundTransparency = 1
-		icon.Image = getcustomasset('BayaUI/assets/new/overlaystab.png')
+		icon.Image = getcustomasset('BayaUI/assets/modern/overlaystab.png')
 		icon.ImageColor3 = uipallet.Text
 		icon.Parent = window
 		local title = Instance.new('TextLabel')
@@ -2988,7 +2988,7 @@ function mainapi:CreateGUI()
 		arrow.Size = UDim2.fromOffset(4, 8)
 		arrow.Position = UDim2.new(1, -20, 0, 16)
 		arrow.BackgroundTransparency = 1
-		arrow.Image = getcustomasset('BayaUI/assets/new/expandright.png')
+		arrow.Image = getcustomasset('BayaUI/assets/modern/expandright.png')
 		arrow.ImageColor3 = color.Light(uipallet.Main, 0.37)
 		arrow.Parent = button
 		local settingspane = Instance.new('TextButton')
@@ -3015,7 +3015,7 @@ function mainapi:CreateGUI()
 		back.Size = UDim2.fromOffset(16, 16)
 		back.Position = UDim2.fromOffset(11, 13)
 		back.BackgroundTransparency = 1
-		back.Image = getcustomasset('BayaUI/assets/new/back.png')
+		back.Image = getcustomasset('BayaUI/assets/modern/back.png')
 		back.ImageColor3 = color.Light(uipallet.Main, 0.37)
 		back.Parent = settingspane
 		addCorner(settingspane)
@@ -3263,7 +3263,7 @@ function mainapi:CreateGUI()
 		preview.Size = UDim2.fromOffset(12, 12)
 		preview.Position = UDim2.new(1, -22, 0, 10)
 		preview.BackgroundTransparency = 1
-		preview.Image = getcustomasset('BayaUI/assets/new/colorpreview.png')
+		preview.Image = getcustomasset('BayaUI/assets/modern/colorpreview.png')
 		preview.ImageColor3 = Color3.fromHSV(optionapi.Hue, 1, 1)
 		preview.Parent = slider
 		local valuebox = Instance.new('TextBox')
@@ -3291,7 +3291,7 @@ function mainapi:CreateGUI()
 		expandicon.Size = UDim2.fromOffset(9, 5)
 		expandicon.Position = UDim2.fromOffset(4, 4)
 		expandicon.BackgroundTransparency = 1
-		expandicon.Image = getcustomasset('BayaUI/assets/new/expandicon.png')
+		expandicon.Image = getcustomasset('BayaUI/assets/modern/expandicon.png')
 		expandicon.ImageColor3 = color.Dark(uipallet.Text, 0.43)
 		expandicon.Parent = expandbutton
 		local rainbow = Instance.new('TextButton')
@@ -3304,24 +3304,24 @@ function mainapi:CreateGUI()
 		local rainbow1 = Instance.new('ImageLabel')
 		rainbow1.Size = UDim2.fromOffset(12, 12)
 		rainbow1.BackgroundTransparency = 1
-		rainbow1.Image = getcustomasset('BayaUI/assets/new/rainbow_1.png')
+		rainbow1.Image = getcustomasset('BayaUI/assets/modern/rainbow_1.png')
 		rainbow1.ImageColor3 = color.Light(uipallet.Main, 0.37)
 		rainbow1.Parent = rainbow
 		local rainbow2 = rainbow1:Clone()
-		rainbow2.Image = getcustomasset('BayaUI/assets/new/rainbow_2.png')
+		rainbow2.Image = getcustomasset('BayaUI/assets/modern/rainbow_2.png')
 		rainbow2.Parent = rainbow
 		local rainbow3 = rainbow1:Clone()
-		rainbow3.Image = getcustomasset('BayaUI/assets/new/rainbow_3.png')
+		rainbow3.Image = getcustomasset('BayaUI/assets/modern/rainbow_3.png')
 		rainbow3.Parent = rainbow
 		local rainbow4 = rainbow1:Clone()
-		rainbow4.Image = getcustomasset('BayaUI/assets/new/rainbow_4.png')
+		rainbow4.Image = getcustomasset('BayaUI/assets/modern/rainbow_4.png')
 		rainbow4.Parent = rainbow
 		local knob = Instance.new('ImageLabel')
 		knob.Name = 'Knob'
 		knob.Size = UDim2.fromOffset(26, 12)
 		knob.Position = UDim2.fromOffset(slidercolorpos[4] - 3, -5)
 		knob.BackgroundTransparency = 1
-		knob.Image = getcustomasset('BayaUI/assets/new/guislider.png')
+		knob.Image = getcustomasset('BayaUI/assets/modern/guislider.png')
 		knob.ImageColor3 = slidercolors[4]
 		knob.Parent = holder
 		optionsettings.Function = optionsettings.Function or function() end
@@ -3338,8 +3338,8 @@ function mainapi:CreateGUI()
 			ColorSequenceKeypoint.new(0, Color3.fromHSV(0, 0, 0)),
 			ColorSequenceKeypoint.new(1, Color3.fromHSV(optionapi.Hue, optionapi.Sat, 1))
 		}))
-		local normalknob = getcustomasset('BayaUI/assets/new/guislider.png')
-		local rainbowknob = getcustomasset('BayaUI/assets/new/guisliderrain.png')
+		local normalknob = getcustomasset('BayaUI/assets/modern/guislider.png')
+		local rainbowknob = getcustomasset('BayaUI/assets/modern/guisliderrain.png')
 		local rainbowthread
 
 		function optionapi:Save(tab)
@@ -3631,7 +3631,7 @@ function mainapi:CreateCategory(categorysettings)
 	arrow.Size = UDim2.fromOffset(9, 4)
 	arrow.Position = UDim2.fromOffset(20, 18)
 	arrow.BackgroundTransparency = 1
-	arrow.Image = getcustomasset('BayaUI/assets/new/expandup.png')
+	arrow.Image = getcustomasset('BayaUI/assets/modern/expandup.png')
 	arrow.ImageColor3 = Color3.fromRGB(140, 140, 140)
 	arrow.Rotation = 180
 	arrow.Parent = arrowbutton
@@ -3709,7 +3709,7 @@ function mainapi:CreateCategory(categorysettings)
 		bindicon.Size = UDim2.fromOffset(12, 12)
 		bindicon.Position = UDim2.new(0.5, -6, 0, 5)
 		bindicon.BackgroundTransparency = 1
-		bindicon.Image = getcustomasset('BayaUI/assets/new/bind.png')
+		bindicon.Image = getcustomasset('BayaUI/assets/modern/bind.png')
 		bindicon.ImageColor3 = color.Dark(uipallet.Text, 0.43)
 		bindicon.Parent = bind
 		local bindtext = Instance.new('TextLabel')
@@ -3727,7 +3727,7 @@ function mainapi:CreateCategory(categorysettings)
 		bindcover.Size = UDim2.fromOffset(154, 40)
 		bindcover.BackgroundTransparency = 1
 		bindcover.Visible = false
-		bindcover.Image = getcustomasset('BayaUI/assets/new/bindbkg.png')
+		bindcover.Image = getcustomasset('BayaUI/assets/modern/bindbkg.png')
 		bindcover.ScaleType = Enum.ScaleType.Slice
 		bindcover.SliceCenter = Rect.new(0, 0, 141, 40)
 		bindcover.Parent = modulebutton
@@ -3753,7 +3753,7 @@ function mainapi:CreateCategory(categorysettings)
 		dots.Size = UDim2.fromOffset(3, 16)
 		dots.Position = UDim2.fromOffset(4, 12)
 		dots.BackgroundTransparency = 1
-		dots.Image = getcustomasset('BayaUI/assets/new/dots.png')
+		dots.Image = getcustomasset('BayaUI/assets/modern/dots.png')
 		dots.ImageColor3 = color.Light(uipallet.Main, 0.37)
 		dots.Parent = dotsbutton
 		modulechildren.Name = modulesettings.Name..'Children'
@@ -3840,13 +3840,13 @@ function mainapi:CreateCategory(categorysettings)
 		bind.MouseEnter:Connect(function()
 			bindtext.Visible = false
 			bindicon.Visible = not bindtext.Visible
-			bindicon.Image = getcustomasset('BayaUI/assets/new/edit.png')
+			bindicon.Image = getcustomasset('BayaUI/assets/modern/edit.png')
 			if not moduleapi.Enabled then bindicon.ImageColor3 = color.Dark(uipallet.Text, 0.16) end
 		end)
 		bind.MouseLeave:Connect(function()
 			bindtext.Visible = #moduleapi.Bind > 0
 			bindicon.Visible = not bindtext.Visible
-			bindicon.Image = getcustomasset('BayaUI/assets/new/bind.png')
+			bindicon.Image = getcustomasset('BayaUI/assets/modern/bind.png')
 			if not moduleapi.Enabled then
 				bindicon.ImageColor3 = color.Dark(uipallet.Text, 0.43)
 			end
@@ -4088,7 +4088,7 @@ function mainapi:CreateOverlay(categorysettings)
 	pin.Position = UDim2.new(1, -47, 0, 12)
 	pin.BackgroundTransparency = 1
 	pin.AutoButtonColor = false
-	pin.Image = getcustomasset('BayaUI/assets/new/pin.png')
+	pin.Image = getcustomasset('BayaUI/assets/modern/pin.png')
 	pin.ImageColor3 = color.Dark(uipallet.Text, 0.43)
 	pin.Parent = window
 	local dotsbutton = Instance.new('TextButton')
@@ -4103,7 +4103,7 @@ function mainapi:CreateOverlay(categorysettings)
 	dots.Size = UDim2.fromOffset(3, 16)
 	dots.Position = UDim2.fromOffset(4, 12)
 	dots.BackgroundTransparency = 1
-	dots.Image = getcustomasset('BayaUI/assets/new/dots.png')
+	dots.Image = getcustomasset('BayaUI/assets/modern/dots.png')
 	dots.ImageColor3 = color.Light(uipallet.Main, 0.37)
 	dots.Parent = dotsbutton
 	local customchildren = Instance.new('Frame')
@@ -4273,7 +4273,7 @@ function mainapi:CreateCategoryList(categorysettings)
 	arrow.Size = UDim2.fromOffset(9, 4)
 	arrow.Position = UDim2.fromOffset(20, 19)
 	arrow.BackgroundTransparency = 1
-	arrow.Image = getcustomasset('BayaUI/assets/new/expandup.png')
+	arrow.Image = getcustomasset('BayaUI/assets/modern/expandup.png')
 	arrow.ImageColor3 = Color3.fromRGB(140, 140, 140)
 	arrow.Rotation = 180
 	arrow.Parent = arrowbutton
@@ -4299,7 +4299,7 @@ function mainapi:CreateCategoryList(categorysettings)
 	settings.Position = UDim2.new(1, -52, 0, 13)
 	settings.BackgroundTransparency = 1
 	settings.AutoButtonColor = false
-	settings.Image = getcustomasset('BayaUI/assets/new/customsettings.png')
+	settings.Image = getcustomasset('BayaUI/assets/modern/customsettings.png')
 	settings.ImageColor3 = color.Dark(uipallet.Text, 0.43)
 	settings.Parent = window
 	local divider = Instance.new('Frame')
@@ -4349,7 +4349,7 @@ function mainapi:CreateCategoryList(categorysettings)
 	addbutton.Size = UDim2.fromOffset(16, 16)
 	addbutton.Position = UDim2.new(1, -26, 0, 8)
 	addbutton.BackgroundTransparency = 1
-	addbutton.Image = getcustomasset('BayaUI/assets/new/add.png')
+	addbutton.Image = getcustomasset('BayaUI/assets/modern/add.png')
 	addbutton.ImageColor3 = categorysettings.Color
 	addbutton.ImageTransparency = 0.3
 	addbutton.Parent = addbkg
@@ -4433,7 +4433,7 @@ function mainapi:CreateCategoryList(categorysettings)
 				dots.Size = UDim2.fromOffset(3, 16)
 				dots.Position = UDim2.fromOffset(10, 9)
 				dots.BackgroundTransparency = 1
-				dots.Image = getcustomasset('BayaUI/assets/new/dots.png')
+				dots.Image = getcustomasset('BayaUI/assets/modern/dots.png')
 				dots.ImageColor3 = color.Light(uipallet.Main, 0.37)
 				dots.Parent = dotsbutton
 				local bind = Instance.new('TextButton')
@@ -4454,7 +4454,7 @@ function mainapi:CreateCategoryList(categorysettings)
 				bindicon.Size = UDim2.fromOffset(12, 12)
 				bindicon.Position = UDim2.new(0.5, -6, 0, 5)
 				bindicon.BackgroundTransparency = 1
-				bindicon.Image = getcustomasset('BayaUI/assets/new/bind.png')
+				bindicon.Image = getcustomasset('BayaUI/assets/modern/bind.png')
 				bindicon.ImageColor3 = color.Dark(uipallet.Text, 0.43)
 				bindicon.Parent = bind
 				local bindtext = Instance.new('TextLabel')
@@ -4470,7 +4470,7 @@ function mainapi:CreateCategoryList(categorysettings)
 				bind.MouseEnter:Connect(function()
 					bindtext.Visible = false
 					bindicon.Visible = not bindtext.Visible
-					bindicon.Image = getcustomasset('BayaUI/assets/new/edit.png')
+					bindicon.Image = getcustomasset('BayaUI/assets/modern/edit.png')
 					if v.Name ~= mainapi.Profile then
 						bindicon.ImageColor3 = color.Dark(uipallet.Text, 0.16)
 					end
@@ -4478,7 +4478,7 @@ function mainapi:CreateCategoryList(categorysettings)
 				bind.MouseLeave:Connect(function()
 					bindtext.Visible = #v.Bind > 0
 					bindicon.Visible = not bindtext.Visible
-					bindicon.Image = getcustomasset('BayaUI/assets/new/bind.png')
+					bindicon.Image = getcustomasset('BayaUI/assets/modern/bind.png')
 					if v.Name ~= mainapi.Profile then
 						bindicon.ImageColor3 = color.Dark(uipallet.Text, 0.43)
 					end
@@ -4488,7 +4488,7 @@ function mainapi:CreateCategoryList(categorysettings)
 				bindcover.Size = UDim2.fromOffset(154, 33)
 				bindcover.BackgroundTransparency = 1
 				bindcover.Visible = false
-				bindcover.Image = getcustomasset('BayaUI/assets/new/bindbkg.png')
+				bindcover.Image = getcustomasset('BayaUI/assets/modern/bindbkg.png')
 				bindcover.ScaleType = Enum.ScaleType.Slice
 				bindcover.SliceCenter = Rect.new(0, 0, 141, 40)
 				bindcover.Parent = object
@@ -4621,7 +4621,7 @@ function mainapi:CreateCategoryList(categorysettings)
 				close.BackgroundColor3 = Color3.new(1, 1, 1)
 				close.BackgroundTransparency = 1
 				close.AutoButtonColor = false
-				close.Image = getcustomasset('BayaUI/assets/new/closemini.png')
+				close.Image = getcustomasset('BayaUI/assets/modern/closemini.png')
 				close.ImageColor3 = color.Light(uipallet.Text, 0.2)
 				close.ImageTransparency = 0.5
 				close.Parent = object
@@ -4787,7 +4787,7 @@ function mainapi:CreateSearch()
 	searchicon.Size = UDim2.fromOffset(14, 14)
 	searchicon.Position = UDim2.new(1, -23, 0, 11)
 	searchicon.BackgroundTransparency = 1
-	searchicon.Image = getcustomasset('BayaUI/assets/new/search.png')
+	searchicon.Image = getcustomasset('BayaUI/assets/modern/search.png')
 	searchicon.ImageColor3 = color.Light(uipallet.Main, 0.37)
 	searchicon.Parent = searchbkg
 	local legiticon = Instance.new('ImageButton')
@@ -4795,7 +4795,7 @@ function mainapi:CreateSearch()
 	legiticon.Size = UDim2.fromOffset(29, 16)
 	legiticon.Position = UDim2.fromOffset(8, 11)
 	legiticon.BackgroundTransparency = 1
-	legiticon.Image = getcustomasset('BayaUI/assets/new/legit.png')
+	legiticon.Image = getcustomasset('BayaUI/assets/modern/legit.png')
 	legiticon.Parent = searchbkg
 	local legitdivider = Instance.new('Frame')
 	legitdivider.Name = 'LegitDivider'
@@ -4932,7 +4932,7 @@ function mainapi:CreateLegit()
 	icon.Size = UDim2.fromOffset(16, 16)
 	icon.Position = UDim2.fromOffset(18, 13)
 	icon.BackgroundTransparency = 1
-	icon.Image = getcustomasset('BayaUI/assets/new/legittab.png')
+	icon.Image = getcustomasset('BayaUI/assets/modern/legittab.png')
 	icon.ImageColor3 = uipallet.Text
 	icon.Parent = window
 	local close = addCloseButton(window)
@@ -5007,7 +5007,7 @@ function mainapi:CreateLegit()
 		dots.Size = UDim2.fromOffset(2, 12)
 		dots.Position = UDim2.fromOffset(6, 6)
 		dots.BackgroundTransparency = 1
-		dots.Image = getcustomasset('BayaUI/assets/new/dots.png')
+		dots.Image = getcustomasset('BayaUI/assets/modern/dots.png')
 		dots.ImageColor3 = color.Light(uipallet.Main, 0.37)
 		dots.Parent = dotsbutton
 		local shadow = Instance.new('TextButton')
@@ -5044,7 +5044,7 @@ function mainapi:CreateLegit()
 		back.Size = UDim2.fromOffset(16, 16)
 		back.Position = UDim2.fromOffset(11, 13)
 		back.BackgroundTransparency = 1
-		back.Image = getcustomasset('BayaUI/assets/new/back.png')
+		back.Image = getcustomasset('BayaUI/assets/modern/back.png')
 		back.ImageColor3 = color.Light(uipallet.Main, 0.37)
 		back.Parent = settingspane
 		addCorner(settingspane)
@@ -5239,7 +5239,7 @@ function mainapi:CreateNotification(title, text, duration, type)
 		notification.Position = UDim2.new(1, 0, 1, -(29 + (78 * i)))
 		notification.ZIndex = 5
 		notification.BackgroundTransparency = 1
-		notification.Image = getcustomasset('BayaUI/assets/new/notification.png')
+		notification.Image = getcustomasset('BayaUI/assets/modern/notification.png')
 		notification.ScaleType = Enum.ScaleType.Slice
 		notification.SliceCenter = Rect.new(7, 7, 9, 9)
 		notification.Parent = notifications
@@ -5250,7 +5250,7 @@ function mainapi:CreateNotification(title, text, duration, type)
 		iconshadow.Position = UDim2.fromOffset(-5, -8)
 		iconshadow.ZIndex = 5
 		iconshadow.BackgroundTransparency = 1
-		iconshadow.Image = getcustomasset('BayaUI/assets/new/'..(type or 'info')..'.png')
+		iconshadow.Image = getcustomasset('BayaUI/assets/modern/'..(type or 'info')..'.png')
 		iconshadow.ImageColor3 = Color3.new()
 		iconshadow.ImageTransparency = 0.5
 		iconshadow.Parent = notification
@@ -5460,7 +5460,7 @@ function mainapi:Load(skipgui, profile)
 		image.Size = UDim2.fromOffset(26, 26)
 		image.Position = UDim2.fromOffset(3, 3)
 		image.BackgroundTransparency = 1
-		image.Image = getcustomasset('BayaUI/assets/new/baya.png')
+		image.Image = getcustomasset('BayaUI/assets/modern/baya.png')
 		image.Parent = button
 		local buttoncorner = Instance.new('UICorner')
 		buttoncorner.Parent = button
@@ -5715,37 +5715,37 @@ mainapi:CreateGUI()
 mainapi.Categories.Main:CreateDivider()
 mainapi:CreateCategory({
 	Name = 'Combat',
-	Icon = getcustomasset('BayaUI/assets/new/combaticon.png'),
+	Icon = getcustomasset('BayaUI/assets/modern/combaticon.png'),
 	Size = UDim2.fromOffset(13, 14)
 })
 mainapi:CreateCategory({
-	Name = 'Blatant',
-	Icon = getcustomasset('BayaUI/assets/new/blatanticon.png'),
+	Name = 'Fun',
+	Icon = getcustomasset('BayaUI/assets/modern/funicon.png'),
 	Size = UDim2.fromOffset(14, 14)
 })
 mainapi:CreateCategory({
-	Name = 'Render',
-	Icon = getcustomasset('BayaUI/assets/new/rendericon.png'),
+	Name = 'Visual',
+	Icon = getcustomasset('BayaUI/assets/modern/visualicon.png'),
 	Size = UDim2.fromOffset(15, 14)
 })
 mainapi:CreateCategory({
 	Name = 'Utility',
-	Icon = getcustomasset('BayaUI/assets/new/utilityicon.png'),
+	Icon = getcustomasset('BayaUI/assets/modern/utilityicon.png'),
 	Size = UDim2.fromOffset(15, 14)
 })
 mainapi:CreateCategory({
 	Name = 'World',
-	Icon = getcustomasset('BayaUI/assets/new/worldicon.png'),
+	Icon = getcustomasset('BayaUI/assets/modern/worldicon.png'),
 	Size = UDim2.fromOffset(14, 14)
 })
 mainapi:CreateCategory({
 	Name = 'Inventory',
-	Icon = getcustomasset('BayaUI/assets/new/inventoryicon.png'),
+	Icon = getcustomasset('BayaUI/assets/modern/inventoryicon.png'),
 	Size = UDim2.fromOffset(15, 14)
 })
 mainapi:CreateCategory({
-	Name = 'Minigames',
-	Icon = getcustomasset('BayaUI/assets/new/miniicon.png'),
+	Name = 'Auto',
+	Icon = getcustomasset('BayaUI/assets/modern/autoicon.png'),
 	Size = UDim2.fromOffset(19, 12)
 })
 mainapi.Categories.Main:CreateDivider('misc')
@@ -5761,7 +5761,7 @@ local friendscolor = {
 }
 local friendssettings = {
 	Name = 'Friends',
-	Icon = getcustomasset('BayaUI/assets/new/friendstab.png'),
+	Icon = getcustomasset('BayaUI/assets/modern/friendstab.png'),
 	Size = UDim2.fromOffset(17, 16),
 	Placeholder = 'Roblox username',
 	Color = Color3.fromRGB(5, 134, 105),
@@ -5814,7 +5814,7 @@ mainapi:Clean(friends.ColorUpdate)
 ]]
 mainapi:CreateCategoryList({
 	Name = 'Profiles',
-	Icon = getcustomasset('BayaUI/assets/new/profilesicon.png'),
+	Icon = getcustomasset('BayaUI/assets/modern/profilesicon.png'),
 	Size = UDim2.fromOffset(17, 10),
 	Position = UDim2.fromOffset(12, 16),
 	Placeholder = 'Type name',
@@ -5827,7 +5827,7 @@ mainapi:CreateCategoryList({
 local targets
 targets = mainapi:CreateCategoryList({
 	Name = 'Targets',
-	Icon = getcustomasset('BayaUI/assets/new/friendstab.png'),
+	Icon = getcustomasset('BayaUI/assets/modern/friendstab.png'),
 	Size = UDim2.fromOffset(17, 16),
 	Placeholder = 'Roblox username',
 	Function = function()
@@ -5981,7 +5981,7 @@ scaleslider = guipane:CreateSlider({
 })
 guipane:CreateDropdown({
 	Name = 'GUI Theme',
-	List = inputService.TouchEnabled and {'new', 'old'} or {'new', 'old', 'rise'},
+	List = inputService.TouchEnabled and {'modern', 'classic'} or {'modern', 'classic', 'rise'},
 	Function = function(val, mouse)
 		if mouse then
 			writefile('BayaUI/profiles/gui.txt', val)
@@ -5993,7 +5993,7 @@ guipane:CreateDropdown({
 			end
 		end
 	end,
-	Tooltip = 'new - The newest baya theme to since v4.05\nold - The baya theme pre v4.05\nrise - Rise 6.0'
+	Tooltip = 'modern - The newest baya theme to since v4.05\nold - The baya theme pre v4.05\nrise - Rise 6.0'
 })
 mainapi.RainbowMode = guipane:CreateDropdown({
 	Name = 'Rainbow Mode',
@@ -6031,12 +6031,12 @@ guipane:CreateButton({
 		local priority = {
 			GUICategory = 1,
 			CombatCategory = 2,
-			BlatantCategory = 3,
-			RenderCategory = 4,
+			FunCategory = 3,
+			VisualCategory = 4,
 			UtilityCategory = 5,
 			WorldCategory = 6,
 			InventoryCategory = 7,
-			MinigamesCategory = 8,
+			AutoCategory = 8,
 			FriendsCategory = 9,
 			ProfilesCategory = 10
 		}
@@ -6097,7 +6097,7 @@ mainapi.Categories.Main:CreateBind()
 
 local textgui = mainapi:CreateOverlay({
 	Name = 'Text GUI',
-	Icon = getcustomasset('BayaUI/assets/new/textguiicon.png'),
+	Icon = getcustomasset('BayaUI/assets/modern/textguiicon.png'),
 	Size = UDim2.fromOffset(16, 12),
 	Position = UDim2.fromOffset(12, 14),
 	Function = function()
@@ -6231,8 +6231,8 @@ local textguimodules = textgui:CreateToggle({
 textguimoduleslist = textgui:CreateTextList({
 	Name = 'Blacklist',
 	Tooltip = 'Name of module to hide.',
-	Icon = getcustomasset('BayaUI/assets/new/blockedicon.png'),
-	Tab = getcustomasset('BayaUI/assets/new/blockedtab.png'),
+	Icon = getcustomasset('BayaUI/assets/modern/blockedicon.png'),
+	Tab = getcustomasset('BayaUI/assets/modern/blockedtab.png'),
 	TabSize = UDim2.fromOffset(21, 16),
 	Color = Color3.fromRGB(250, 50, 56),
 	Function = function()
@@ -6309,7 +6309,7 @@ BayaLogo.BackgroundTransparency = 1
 BayaLogo.BorderSizePixel = 0
 BayaLogo.Visible = false
 BayaLogo.BackgroundColor3 = Color3.new()
-BayaLogo.Image = getcustomasset('BayaUI/assets/new/textbaya.png')
+BayaLogo.Image = getcustomasset('BayaUI/assets/modern/textbaya.png')
 BayaLogo.Parent = textgui.Children
 
 local lastside = textgui.Children.AbsolutePosition.X > (gui.AbsoluteSize.X / 2)
@@ -6331,7 +6331,7 @@ BayaLogoV4.Position = UDim2.new(1, 1, 0, 1)
 BayaLogoV4.BackgroundColor3 = Color3.new()
 BayaLogoV4.BackgroundTransparency = 1
 BayaLogoV4.BorderSizePixel = 0
-BayaLogoV4.Image = getcustomasset('BayaUI/assets/new/textv4.png')
+BayaLogoV4.Image = getcustomasset('BayaUI/assets/modern/textv4.png')
 BayaLogoV4.Parent = BayaLogo
 local BayaLogoShadow = BayaLogo:Clone()
 BayaLogoShadow.Position = UDim2.fromOffset(1, 1)
@@ -6401,7 +6401,7 @@ local targetinfoobj
 local targetinfobcolor
 targetinfoobj = mainapi:CreateOverlay({
 	Name = 'Target Info',
-	Icon = getcustomasset('BayaUI/assets/new/targetinfoicon.png'),
+	Icon = getcustomasset('BayaUI/assets/modern/targetinfoicon.png'),
 	Size = UDim2.fromOffset(14, 14),
 	Position = UDim2.fromOffset(12, 14),
 	CategorySize = 240,
@@ -6677,7 +6677,7 @@ function mainapi:UpdateTextGUI(afterload)
 		local info = TweenInfo.new(0.3, Enum.EasingStyle.Exponential)
 		for i, v in mainapi.Modules do
 			if textguimodules.Enabled and table.find(textguimoduleslist.ListEnabled, i) then continue end
-			if textguirender.Enabled and v.Category == 'Render' then continue end
+			if textguirender.Enabled and v.Category == 'Visual' then continue end
 			if v.Enabled or table.find(found, i) then
 				local holder = Instance.new('Frame')
 				holder.Name = i

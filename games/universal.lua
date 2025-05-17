@@ -1606,7 +1606,7 @@ run(function()
 	rayCheck.RespectCanCollide = true
 	local part
 	
-	AntiFall = baya.Categories.Blatant:CreateModule({
+	AntiFall = baya.Categories.Fun:CreateModule({
 		Name = 'AntiFall',
 		Function = function(callback)
 			if callback then
@@ -1808,7 +1808,7 @@ run(function()
 		end
 	}
 
-	Fly = baya.Categories.Blatant:CreateModule({
+	Fly = baya.Categories.Fun:CreateModule({
 		Name = 'Fly',
 		Function = function(callback)
 			if Platform then
@@ -2094,7 +2094,7 @@ run(function()
 		end
 	end
 	
-	HighJump = baya.Categories.Blatant:CreateModule({
+	HighJump = baya.Categories.Fun:CreateModule({
 		Name = 'HighJump',
 		Function = function(callback)
 			if callback then
@@ -2142,7 +2142,7 @@ run(function()
 	local Expand
 	local modified = {}
 	
-	HitBoxes = baya.Categories.Blatant:CreateModule({
+	HitBoxes = baya.Categories.Fun:CreateModule({
 		Name = 'HitBoxes',
 		Function = function(callback)
 			if callback then
@@ -2285,7 +2285,7 @@ run(function()
 		end
 	end
 	
-	Invisible = baya.Categories.Blatant:CreateModule({
+	Invisible = baya.Categories.Fun:CreateModule({
 		Name = 'Invisible',
 		Function = function(callback)
 			if callback then
@@ -2375,7 +2375,7 @@ run(function()
 		return tool and tool:FindFirstChildWhichIsA('TouchTransmitter', true) or nil, tool
 	end
 	
-	Killaura = baya.Categories.Blatant:CreateModule({
+	Killaura = baya.Categories.Fun:CreateModule({
 		Name = 'Killaura',
 		Function = function(callback)
 			if callback then
@@ -2633,7 +2633,7 @@ run(function()
 	local Value
 	local AutoDisable
 	
-	LongJump = baya.Categories.Blatant:CreateModule({
+	LongJump = baya.Categories.Fun:CreateModule({
 		Name = 'LongJump',
 		Function = function(callback)
 			if callback then
@@ -2713,7 +2713,7 @@ run(function()
 		return returned
 	end
 	
-	MouseTP = baya.Categories.Blatant:CreateModule({
+	MouseTP = baya.Categories.Fun:CreateModule({
 		Name = 'MouseTP',
 		Function = function(callback)
 			if callback then
@@ -2896,7 +2896,7 @@ run(function()
 	}
 	Functions.Motor = Functions.CFrame
 	
-	Phase = baya.Categories.Blatant:CreateModule({
+	Phase = baya.Categories.Fun:CreateModule({
 		Name = 'Phase',
 		Function = function(callback)
 			if callback then
@@ -2963,7 +2963,7 @@ run(function()
 	local AutoJumpValue
 	local w, s, a, d = 0, 0, 0, 0
 	
-	Speed = baya.Categories.Blatant:CreateModule({
+	Speed = baya.Categories.Fun:CreateModule({
 		Name = 'Speed',
 		Function = function(callback)
 			frictionTable.Speed = callback and CustomProperties.Enabled or nil
@@ -3131,7 +3131,7 @@ run(function()
 	rayCheck.RespectCanCollide = true
 	local Active, Truss
 	
-	Spider = baya.Categories.Blatant:CreateModule({
+	Spider = baya.Categories.Fun:CreateModule({
 		Name = 'Spider',
 		Function = function(callback)
 			if callback then
@@ -3235,7 +3235,7 @@ run(function()
 	local Value
 	local AngularVelocity
 	
-	SpinBot = baya.Categories.Blatant:CreateModule({
+	SpinBot = baya.Categories.Fun:CreateModule({
 		Name = 'SpinBot',
 		Function = function(callback)
 			if callback then
@@ -3297,7 +3297,7 @@ run(function()
 	local terrain = cloneref(workspace:FindFirstChildWhichIsA('Terrain'))
 	local lastpos = Region3.new(Vector3.zero, Vector3.zero)
 	
-	Swim = baya.Categories.Blatant:CreateModule({
+	Swim = baya.Categories.Fun:CreateModule({
 		Name = 'Swim',
 		Function = function(callback)
 			if callback then
@@ -3338,7 +3338,7 @@ run(function()
 	rayCheck.RespectCanCollide = true
 	local module, old
 	
-	TargetStrafe = baya.Categories.Blatant:CreateModule({
+	TargetStrafe = baya.Categories.Fun:CreateModule({
 		Name = 'TargetStrafe',
 		Function = function(callback)
 			if callback then
@@ -3451,7 +3451,7 @@ run(function()
 	local Timer
 	local Value
 	
-	Timer = baya.Categories.Blatant:CreateModule({
+	Timer = baya.Categories.Fun:CreateModule({
 		Name = 'Timer',
 		Function = function(callback)
 			if callback then
@@ -3545,7 +3545,7 @@ run(function()
 		end
 	end
 	
-	Arrows = baya.Categories.Render:CreateModule({
+	Arrows = baya.Categories.Visual:CreateModule({
 		Name = 'Arrows',
 		Function = function(callback)
 			if callback then
@@ -3687,7 +3687,7 @@ run(function()
 		end
 	end
 	
-	Chams = baya.Categories.Render:CreateModule({
+	Chams = baya.Categories.Visual:CreateModule({
 		Name = 'Chams',
 		Function = function(callback)
 			if callback then
@@ -4194,7 +4194,7 @@ run(function()
 		end
 	}
 	
-	ESP = baya.Categories.Render:CreateModule({
+	ESP = baya.Categories.Visual:CreateModule({
 		Name = 'ESP',
 		Function = function(callback)
 			if callback then
@@ -4368,7 +4368,7 @@ end)
 run(function()
 	local Health
 	
-	Health = baya.Categories.Render:CreateModule({
+	Health = baya.Categories.Visual:CreateModule({
 		Name = 'Health',
 		Function = function(callback)
 			if callback then
@@ -4640,7 +4640,7 @@ run(function()
 		end
 	}
 	
-	NameTags = baya.Categories.Render:CreateModule({
+	NameTags = baya.Categories.Visual:CreateModule({
 		Name = 'NameTags',
 		Function = function(callback)
 			if callback then
@@ -4844,7 +4844,7 @@ run(function()
 		end
 	end
 	
-	PlayerModel = baya.Categories.Render:CreateModule({
+	PlayerModel = baya.Categories.Visual:CreateModule({
 		Name = 'PlayerModel',
 		Function = function(callback)
 			if callback then 
@@ -5123,7 +5123,7 @@ run(function()
 		end
 	end
 	
-	Search = baya.Categories.Render:CreateModule({
+	Search = baya.Categories.Visual:CreateModule({
 		Name = 'Search',
 		Function = function(callback)
 			if callback then
@@ -5417,7 +5417,7 @@ run(function()
 		end
 	end
 	
-	Tracers = baya.Categories.Render:CreateModule({
+	Tracers = baya.Categories.Visual:CreateModule({
 		Name = 'Tracers',
 		Function = function(callback)
 			if callback then
@@ -5545,7 +5545,7 @@ run(function()
 	WaypointFolder = Instance.new('Folder')
 	WaypointFolder.Parent = baya.gui
 	
-	Waypoints = baya.Categories.Render:CreateModule({
+	Waypoints = baya.Categories.Visual:CreateModule({
 		Name = 'Waypoints',
 		Function = function(callback)
 			if callback then
@@ -6467,7 +6467,7 @@ run(function()
 		end
 	end
 	
-	MurderMystery = baya.Categories.Minigames:CreateModule({
+	MurderMystery = baya.Categories.Auto:CreateModule({
 		Name = 'MurderMystery',
 		Function = function(callback)
 			if callback then

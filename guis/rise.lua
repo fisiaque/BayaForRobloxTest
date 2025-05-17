@@ -1642,7 +1642,7 @@ end)
 addMaid(mainapi)
 
 function mainapi:CreateGUI()
-	return self.Categories.Minigames:CreateModule({
+	return self.Categories.Auto:CreateModule({
 		Name = 'Settings',
 		Tooltip = 'Miscellaneous options for the utility.'
 	})
@@ -1902,7 +1902,7 @@ function mainapi:CreateCategory(categorysettings)
 end
 
 function mainapi:CreateCategoryList(categorysettings)
-	local module, list = self.Categories.Minigames:CreateModule({
+	local module, list = self.Categories.Auto:CreateModule({
 		Name = categorysettings.Name,
 		Tooltip = categorysettings.Tooltip or 'Miscellaneous options for the category.'
 	})
@@ -2139,7 +2139,7 @@ function mainapi:CreateOverlay(categorysettings)
 	categoryapi = {
 		Type = 'Overlay',
 		Expanded = false,
-		Button = self.Categories.Render:CreateModule({
+		Button = self.Categories.Visual:CreateModule({
 			Name = categorysettings.Name,
 			Function = function(callback)
 				customchildren.Visible = callback
@@ -2656,7 +2656,7 @@ mainapi:CreateCategory({
 })
 mainapi:CreateCategory({
 	Name = 'Movement',
-	RealName = 'Blatant',
+	RealName = 'Fun',
 	RiseIcon = 'b'
 })
 mainapi:CreateCategory({
@@ -2678,7 +2678,7 @@ mainapi:CreateCategory({
 	RealName = 'Legit',
 	RiseIcon = 'f'
 })
-mainapi.Categories.Minigames = mainapi.Categories.Utility
+mainapi.Categories.Auto = mainapi.Categories.Utility
 mainapi.Categories.Inventory = mainapi.Categories.Utility
 
 --[[
@@ -2781,7 +2781,7 @@ mainapi.Categories.Main:CreateToggle({
 })
 mainapi.Categories.Main:CreateToggle({
 	Name = 'Use team color',
-	Tooltip = 'Uses the TeamColor property on players for render modules',
+	Tooltip = 'Uses the TeamColor property on players for visual modules',
 	Default = true,
 	Function = function()
 		if mainapi.Libraries.entity and mainapi.Libraries.entity.Running then
@@ -2903,7 +2903,7 @@ local interfaceshow = interface:CreateDropdown({
 	Name = 'Modules to Show',
 	List = {
 		'All',
-		'Exclude render',
+		'Exclude visual',
 		'Only bound'
 	},
 	Function = function()
@@ -3186,7 +3186,7 @@ function mainapi:UpdateTextGUI(afterload)
 		local info = TweenInfo.new(0.5, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out)
 		for i, v in mainapi.Modules do
 			if v.Enabled or table.find(found, i) then
-				if interfaceshow.Value == 'Exclude render' and v.Category == 'Render' then continue end
+				if interfaceshow.Value == 'Exclude visual' and v.Category == 'Render' then continue end
 				if interfaceshow.Value == 'Only bound' and #v.Bind <= 0 then continue end
 				if i == 'RiseInterface' then continue end
 				local holder = Instance.new('Frame')
